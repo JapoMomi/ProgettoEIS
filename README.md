@@ -1,4 +1,5 @@
-PANORAMICA CONCISA E AD ALTO LIVELLO DEL PROGETTO: 
+PANORAMICA CONCISA E AD ALTO LIVELLO DEL PROGETTO:
+
 Il progetto implementa un sistema software in grado di effettuare il download di articoli da testate 
 giornalistiche online resi disponibili da diverse sorgenti e di estrarre e visualizzare i termini più “importanti” 
 (numero di documenti in cui appaiono) nell’insieme degli articoli scaricati. 
@@ -29,6 +30,7 @@ presenti negli articoli
 
 
 ISTRUZIONI SU COME INSTALLARE ED ESEGUIRE IL SOFTWARE: 
+
 (Progetto realizzato con Java 8) 
 Se nella cartella del progetto è presente la cartella target con al suo interno “EISProject-1.0-SNAPSHOT.jar”: 
 • aprire il prompt dei comandi  
