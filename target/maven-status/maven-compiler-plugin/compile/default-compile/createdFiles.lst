@@ -1,0 +1,11 @@
+it\unipd\dei\eis_MFCD\InputHandler.class
+com\apiguardian\GuardianContentApi.class
+com\apiguardian\bean\Article.class
+it\unipd\dei\eis_MFCD\ShellManager.class
+it\unipd\dei\eis_MFCD\NotACharacterException.class
+com\apiguardian\GuardianContentApi$1.class
+it\unipd\dei\eis_MFCD\App.class
+com\apiguardian\bean\Response.class
+it\unipd\dei\eis_MFCD\Tools.class
+com\apiguardian\bean\ArticleCsv.class
+com\apiguardian\bean\ResponseWrapper.class
