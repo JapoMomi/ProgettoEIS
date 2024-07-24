@@ -32,17 +32,22 @@ presenti negli articoli
 ISTRUZIONI SU COME INSTALLARE ED ESEGUIRE IL SOFTWARE: 
 
 (Progetto realizzato con Java 8) 
+
 Se nella cartella del progetto è presente la cartella target con al suo interno “EISProject-1.0-SNAPSHOT.jar”: 
 • aprire il prompt dei comandi  
 • cambiare directory entrando nella cartella ProgettoEIS_MFCD con il comando “cd  [percorso 
 cartella]” 
 • eseguire il comando “start exe.bat” 
+
 Se nella cartella del progetto non è presente la cartella target o questa non contiene il file “EISProject-1.0
 SNAPSHOT.jar”: 
+
 • aprire il prompt dei comandi  
 • cambiare directory entrando nella cartella ProgettoEIS_MFCD con “cd  [percorso cartella]” 
 • eseguire il comando “mvn clean install” 
-• eseguire il comando “start exe.bat” ---------------------------------------------------------------------------------------------------------------------- 
+• eseguire il comando “start exe.bat”
+---------------------------------------------------------------------------------------------------------------------- 
+
 Per visionare la javadoc, se è presente la cartella target\site\apidocs: 
 • aprire il file index.html all’interno della cartella target\site\apidocs 
 Per visionare la javadoc, se non è presente la cartella target\site\apidocs: 
@@ -50,7 +55,9 @@ Per visionare la javadoc, se non è presente la cartella target\site\apidocs:
 • cambiare directory entrando nella cartella ProgettoEIS_MFCD con “cd  [percorso cartella]” 
 • eseguire il comando “mvn javadoc:javadoc” 
 • cambiare directory entrando nella cartella ProgettoEIS_MFCD con “cd  [percorso cartella]” 
-• aprire il file index.html all’interno della cartella target\site\apidocs ---------------------------------------------------------------------------------------------------------------------- 
+• aprire il file index.html all’interno della cartella target\site\apidocs 
+---------------------------------------------------------------------------------------------------------------------- 
+
 Per visionare il report dei test, se è presente la cartella target\site e se contiene il file surefire-report.html: 
 • aprire il file surefire-report.html all’interno di target\site 
 Per visionare il report dei test, se non è presente la cartella target\site o se non contiene il file surefire
@@ -58,11 +65,13 @@ report.html al suo interno:
 • aprire il prompt dei comandi 
 • cambiare directory entrando nella cartella ProgettoEIS_MFCD con “cd  [percorso cartella]” 
 • eseguire il comando “mvn surefire-report:report” 
-• aprire il file surefire-report.html all’interno di target\site ---------------------------------------------------------------------------------------------------------------------- 
+• aprire il file surefire-report.html all’interno di target\site 
+---------------------------------------------------------------------------------------------------------------------- 
 I restanti documenti sono presenti all’interno della cartella “Documenti” 
 
 
 LIBRERIE UTILIZZATE E LE LORO FUNZIONI: 
+
 groupId:org.apache.commons 
 artifactId:commons-csv 
 version:1.10.0 
